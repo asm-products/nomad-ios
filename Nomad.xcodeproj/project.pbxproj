@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7C82F11A02B503003A3875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C82F01A02B503003A3875 /* AppDelegate.swift */; };
+		4A7C82F31A02B503003A3875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C82F21A02B503003A3875 /* ViewController.swift */; };
+		4A7C82F61A02B503003A3875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C82F41A02B503003A3875 /* Main.storyboard */; };
+		4A7C82F81A02B503003A3875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C82F71A02B503003A3875 /* Images.xcassets */; };
+		4A7C82FB1A02B503003A3875 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C82F91A02B503003A3875 /* LaunchScreen.xib */; };
+		4A7C83071A02B503003A3875 /* NomadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C83061A02B503003A3875 /* NomadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A7C83011A02B503003A3875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A7C82E31A02B503003A3875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A7C82EA1A02B503003A3875;
+			remoteInfo = Nomad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A7C82EB1A02B503003A3875 /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7C82EF1A02B503003A3875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7C82F01A02B503003A3875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A7C82F21A02B503003A3875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A7C82F51A02B503003A3875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A7C82F71A02B503003A3875 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A7C82FA1A02B503003A3875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4A7C83001A02B503003A3875 /* NomadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7C83051A02B503003A3875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7C83061A02B503003A3875 /* NomadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7C82E81A02B503003A3875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7C82FD1A02B503003A3875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7C82E21A02B503003A3875 = {
+			isa = PBXGroup;
+			children = (
+				4A7C82ED1A02B503003A3875 /* Nomad */,
+				4A7C83031A02B503003A3875 /* NomadTests */,
+				4A7C82EC1A02B503003A3875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7C82EC1A02B503003A3875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C82EB1A02B503003A3875 /* Nomad.app */,
+				4A7C83001A02B503003A3875 /* NomadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7C82ED1A02B503003A3875 /* Nomad */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C82F01A02B503003A3875 /* AppDelegate.swift */,
+				4A7C82F21A02B503003A3875 /* ViewController.swift */,
+				4A7C82F41A02B503003A3875 /* Main.storyboard */,
+				4A7C82F71A02B503003A3875 /* Images.xcassets */,
+				4A7C82F91A02B503003A3875 /* LaunchScreen.xib */,
+				4A7C82EE1A02B503003A3875 /* Supporting Files */,
+			);
+			path = Nomad;
+			sourceTree = "<group>";
+		};
+		4A7C82EE1A02B503003A3875 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C82EF1A02B503003A3875 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A7C83031A02B503003A3875 /* NomadTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C83061A02B503003A3875 /* NomadTests.swift */,
+				4A7C83041A02B503003A3875 /* Supporting Files */,
+			);
+			path = NomadTests;
+			sourceTree = "<group>";
+		};
+		4A7C83041A02B503003A3875 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C83051A02B503003A3875 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A7C82EA1A02B503003A3875 /* Nomad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7C830A1A02B503003A3875 /* Build configuration list for PBXNativeTarget "Nomad" */;
+			buildPhases = (
+				4A7C82E71A02B503003A3875 /* Sources */,
+				4A7C82E81A02B503003A3875 /* Frameworks */,
+				4A7C82E91A02B503003A3875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nomad;
+			productName = Nomad;
+			productReference = 4A7C82EB1A02B503003A3875 /* Nomad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A7C82FF1A02B503003A3875 /* NomadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7C830D1A02B503003A3875 /* Build configuration list for PBXNativeTarget "NomadTests" */;
+			buildPhases = (
+				4A7C82FC1A02B503003A3875 /* Sources */,
+				4A7C82FD1A02B503003A3875 /* Frameworks */,
+				4A7C82FE1A02B503003A3875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A7C83021A02B503003A3875 /* PBXTargetDependency */,
+			);
+			name = NomadTests;
+			productName = NomadTests;
+			productReference = 4A7C83001A02B503003A3875 /* NomadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7C82E31A02B503003A3875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Nomad;
+				TargetAttributes = {
+					4A7C82EA1A02B503003A3875 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4A7C82FF1A02B503003A3875 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4A7C82EA1A02B503003A3875;
+					};
+				};
+			};
+			buildConfigurationList = 4A7C82E61A02B503003A3875 /* Build configuration list for PBXProject "Nomad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A7C82E21A02B503003A3875;
+			productRefGroup = 4A7C82EC1A02B503003A3875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7C82EA1A02B503003A3875 /* Nomad */,
+				4A7C82FF1A02B503003A3875 /* NomadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7C82E91A02B503003A3875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7C82F61A02B503003A3875 /* Main.storyboard in Resources */,
+				4A7C82FB1A02B503003A3875 /* LaunchScreen.xib in Resources */,
+				4A7C82F81A02B503003A3875 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7C82FE1A02B503003A3875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7C82E71A02B503003A3875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7C82F31A02B503003A3875 /* ViewController.swift in Sources */,
+				4A7C82F11A02B503003A3875 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7C82FC1A02B503003A3875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7C83071A02B503003A3875 /* NomadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A7C83021A02B503003A3875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A7C82EA1A02B503003A3875 /* Nomad */;
+			targetProxy = 4A7C83011A02B503003A3875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A7C82F41A02B503003A3875 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7C82F51A02B503003A3875 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A7C82F91A02B503003A3875 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7C82FA1A02B503003A3875 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A7C83081A02B503003A3875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A7C83091A02B503003A3875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A7C830B1A02B503003A3875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nomad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A7C830C1A02B503003A3875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nomad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A7C830E1A02B503003A3875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NomadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomad.app/Nomad";
+			};
+			name = Debug;
+		};
+		4A7C830F1A02B503003A3875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NomadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomad.app/Nomad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7C82E61A02B503003A3875 /* Build configuration list for PBXProject "Nomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7C83081A02B503003A3875 /* Debug */,
+				4A7C83091A02B503003A3875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7C830A1A02B503003A3875 /* Build configuration list for PBXNativeTarget "Nomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7C830B1A02B503003A3875 /* Debug */,
+				4A7C830C1A02B503003A3875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A7C830D1A02B503003A3875 /* Build configuration list for PBXNativeTarget "NomadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7C830E1A02B503003A3875 /* Debug */,
+				4A7C830F1A02B503003A3875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7C82E31A02B503003A3875 /* Project object */;
+}
