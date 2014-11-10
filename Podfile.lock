@@ -1,1 +1,10 @@
+PODS:
+  - SPGooglePlacesAutocomplete (1.0.4)
+
+DEPENDENCIES:
+  - SPGooglePlacesAutocomplete
+
+SPEC CHECKSUMS:
+  SPGooglePlacesAutocomplete: 6352d38dedf40ccac6d728fa50c50fd370d183b9
+
 COCOAPODS: 0.34.4
