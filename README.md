@@ -12,7 +12,7 @@ sudo gem install cocoapods
 Then:
 ```shell
 pod install
-open open Nomad.xcworkspace
+open Nomad.xcworkspace
 ```
 
 ## Find the best places to work remotely
