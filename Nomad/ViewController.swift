@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var searchResulsPlaces = [SPGooglePlacesAutocompletePlace]()
     //TODO: we need an API key
-    let searchQuery = SPGooglePlacesAutocompleteQuery(apiKey: "")
+    let searchQuery = SPGooglePlacesAutocompleteQuery(apiKey: "ADD-YOUR-API-HERE")
     
     let locationManager = CLLocationManager()
 

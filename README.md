@@ -15,6 +15,14 @@ pod install
 open open Nomad.xcworkspace
 ```
 
+For testing purposes a Google Places Api key is needed.
+
+Please see here for more info: (https://developers.google.com/places/documentation/#Authentication)[https://developers.google.com/places/documentation/#Authentication]
+
+Once you have obtained your API key search for the string "ADD-YOUR-API-HERE". And replace it with your API key.
+
+Be carefull not to commit your key.
+
 ## Find the best places to work remotely
 
 This is a product being built by the Assembly community. You can help push this idea forward by visiting [https://assembly.com/nomad](https://assembly.com/nomad).
