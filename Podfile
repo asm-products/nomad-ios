@@ -12,3 +12,8 @@ target 'NomadTests' do
 
 end
 
+post_install do | installer |
+    require 'fileutils'
+    FileUtils.cp_r('Pods/Target Support Files/Pods-Nomad/Pods-Nomad-Acknowledgements.plist', 'Nomad/Resource/Settings.bundle/Acknowledgements.plist', :remove_destination => true)
+end
+

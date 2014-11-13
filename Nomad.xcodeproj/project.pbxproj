@@ -15,6 +15,7 @@
 		4A7C82F81A02B503003A3875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C82F71A02B503003A3875 /* Images.xcassets */; };
 		4A7C82FB1A02B503003A3875 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C82F91A02B503003A3875 /* LaunchScreen.xib */; };
 		4A7C83071A02B503003A3875 /* NomadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C83061A02B503003A3875 /* NomadTests.swift */; };
+		4A86C37B1A15386B007B4943 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A86C37A1A15386B007B4943 /* Settings.bundle */; };
 		4ADEF8B71A10C908007FF7F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADEF8B61A10C908007FF7F6 /* MapKit.framework */; };
 		E95F11EC7FAABA7BF72290F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D56E8E02B64BDB0D394E2A0 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		4A7C83001A02B503003A3875 /* NomadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7C83051A02B503003A3875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A7C83061A02B503003A3875 /* NomadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadTests.swift; sourceTree = "<group>"; };
+		4A86C37A1A15386B007B4943 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		4ADEF8B21A10B575007FF7F6 /* Nomad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nomad-Bridging-Header.h"; sourceTree = "<group>"; };
 		4ADEF8B61A10C908007FF7F6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6D56E8E02B64BDB0D394E2A0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				4A7C82F41A02B503003A3875 /* Main.storyboard */,
 				4A7C82F71A02B503003A3875 /* Images.xcassets */,
 				4A7C82F91A02B503003A3875 /* LaunchScreen.xib */,
+				4A86C3791A15386B007B4943 /* Resource */,
 				4A7C82EE1A02B503003A3875 /* Supporting Files */,
 			);
 			path = Nomad;
@@ -139,6 +142,14 @@
 				4A7C83051A02B503003A3875 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A86C3791A15386B007B4943 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4A86C37A1A15386B007B4943 /* Settings.bundle */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		E84B2FD080DEB13945A51365 /* Pods */ = {
@@ -238,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A86C37B1A15386B007B4943 /* Settings.bundle in Resources */,
 				4A7C82F61A02B503003A3875 /* Main.storyboard in Resources */,
 				4A7C82FB1A02B503003A3875 /* LaunchScreen.xib in Resources */,
 				4A7C82F81A02B503003A3875 /* Images.xcassets in Resources */,
