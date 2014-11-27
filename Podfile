@@ -9,7 +9,10 @@ target 'Nomad' do
 end
 
 target 'NomadTests' do
+end
 
+target 'NomadFunctionalTests', :exclusive => true do
+    pod 'KIF'
 end
 
 post_install do | installer |
