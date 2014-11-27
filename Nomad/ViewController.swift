@@ -31,6 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.searchDisplayController?.searchResultsTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
         
         self.searchDisplayController!.searchBar.placeholder = "Search or Address"
+        self.searchDisplayController!.searchBar.accessibilityLabel = "Search or Address"
     }
     
     @IBAction func recenterMapToUserLocation(sender: AnyObject) {

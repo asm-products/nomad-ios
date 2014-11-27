@@ -1,10 +1,15 @@
 PODS:
+  - KIF (3.0.8):
+    - KIF/XCTest (= 3.0.8)
+  - KIF/XCTest (3.0.8)
   - SPGooglePlacesAutocomplete (1.0.4)
 
 DEPENDENCIES:
+  - KIF
   - SPGooglePlacesAutocomplete
 
 SPEC CHECKSUMS:
+  KIF: 2db5e8cf59136dd1267d49cca0d55883389b09d3
   SPGooglePlacesAutocomplete: 6352d38dedf40ccac6d728fa50c50fd370d183b9
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.35.0
